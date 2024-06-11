@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E51FEBB2C181C5100118851 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E51FEBA2C181C5100118851 /* Card.swift */; };
+		6E51FEBD2C181E8100118851 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E51FEBC2C181E8100118851 /* HomeView.swift */; };
 		6EC9FE1A2C181BC7007A6C93 /* WalletAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9FE192C181BC7007A6C93 /* WalletAppApp.swift */; };
 		6EC9FE1C2C181BC7007A6C93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9FE1B2C181BC7007A6C93 /* ContentView.swift */; };
 		6EC9FE1E2C181BCA007A6C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EC9FE1D2C181BCA007A6C93 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E51FEBA2C181C5100118851 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		6E51FEBC2C181E8100118851 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		6EC9FE162C181BC7007A6C93 /* WalletApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC9FE192C181BC7007A6C93 /* WalletAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletAppApp.swift; sourceTree = "<group>"; };
 		6EC9FE1B2C181BC7007A6C93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		6EC9FE182C181BC7007A6C93 /* WalletApp */ = {
 			isa = PBXGroup;
 			children = (
+				6E51FEBC2C181E8100118851 /* HomeView.swift */,
+				6E51FEBA2C181C5100118851 /* Card.swift */,
 				6EC9FE192C181BC7007A6C93 /* WalletAppApp.swift */,
 				6EC9FE1B2C181BC7007A6C93 /* ContentView.swift */,
 				6EC9FE1D2C181BCA007A6C93 /* Assets.xcassets */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EC9FE1C2C181BC7007A6C93 /* ContentView.swift in Sources */,
+				6E51FEBD2C181E8100118851 /* HomeView.swift in Sources */,
+				6E51FEBB2C181C5100118851 /* Card.swift in Sources */,
 				6EC9FE1A2C181BC7007A6C93 /* WalletAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
